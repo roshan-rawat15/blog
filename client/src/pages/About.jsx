@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaEnvelope, FaTwitter, FaGithub } from 'react-icons/fa';
-import pic from '../assets/pic.jpeg'
+import pic from '../assets/pic.jpg'
 
 const About = () => {
   const [activeSection, setActiveSection] = useState('story');
 
   const teamMembers = [
-    { name: 'Rohan Chauhan', role: 'Our Owner', avatar: pic },
+    { name: 'Roshan Kumar', role: 'Our Owner', avatar: pic },
     { name: 'John Smith', role: 'Editor', avatar: 'https://via.placeholder.com/150' },
     { name: 'Alex Johnson', role: 'Designer', avatar: 'https://via.placeholder.com/150' },
   ];
